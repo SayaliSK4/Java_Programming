@@ -7,7 +7,7 @@ public class BankingSystem {
 
         String url = "jdbc:mysql://localhost:3306/bankdb";
         String user = "root";
-        String password = "root"; // तुमचा password
+        String password = "root"; 
 
         try {
             Connection con = DriverManager.getConnection(url, user, password);
